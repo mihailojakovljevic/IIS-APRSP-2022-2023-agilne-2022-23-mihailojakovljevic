@@ -1,0 +1,120 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiGatewayApplication<api-gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "apiGateway.ApiGatewayApplication",
+            "projectName": "api-gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=61005 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=api-gateway"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-NamingServerApplication<naming-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "namingserver.NamingServerApplication",
+            "projectName": "naming-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=55039 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=naming-server"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UsersServiceApplication<users-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "usersService.UsersServiceApplication",
+            "projectName": "users-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=55052 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=users-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CurrencyConversionApplication<currency-conversion>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "currencyConversion.CurrencyConversionApplication",
+            "projectName": "currency-conversion",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=55077 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=currency-conversion"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CurrencyExchangeApplication<currency-exchange>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "currencyExchange.CurrencyExchangeApplication",
+            "projectName": "currency-exchange",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=55065 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=currency-exchange"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BankAccountApplication<bank-account>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "bankAccount.BankAccountApplication",
+            "projectName": "bank-account",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=55091 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=bank-account"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CryptoWalletApplication<crypto-wallet>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cryptoWallet.CryptoWalletApplication",
+            "projectName": "crypto-wallet",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CryptoExchangeApplication<crypto-exchange>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cryptoExchange.CryptoExchangeApplication",
+            "projectName": "crypto-exchange",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CryptoConversionApplication<crypto-conversion>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cryptoConversion.CryptoConversionApplication",
+            "projectName": "crypto-conversion",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TradeServiceApplication<trade-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tradeService.TradeServiceApplication",
+            "projectName": "trade-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TransferServiceApplication<transfer-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "transferService.TransferServiceApplication",
+            "projectName": "transfer-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
